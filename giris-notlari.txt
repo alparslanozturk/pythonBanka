@@ -1,0 +1,97 @@
+
+
+
+"""
+a=3
+b=3.14
+c="kaakter"
+listem=[1, 5, "kaakter", "ikinci", "ucuncu"]
+print( listem )
+print( len(listem) )
+print( listem[2:] )
+
+sozlugum = {"elma":3, "armut":4, "kiraz":5}
+print( sozlugum )
+
+a = 4 
+b = 5
+c= 2 + a * b 
+print( "dğerim ", c)
+
+yas = int(  input("yasınızı girin: ")  )
+print( yas  )
+if yas < 18:
+    print("yaş 18 den küçüktür.")
+else:
+    print("yaşınız",yas,"dir")
+
+a = int( input("a:"))
+b = int( input("b:"))
+c = int( input("c:"))
+print("Toplam:", a+b+c)
+"""
+
+
+"""
+i = 1 
+while (i < 10):
+    print( "inin değeri", i, "dir.")
+    if i == 8:
+        break
+    if i == 6:
+        continue
+    i += 1
+"""
+"""
+a = "python"
+for harf in a:
+    print(harf)
+
+for sayi in range(10,100,2):
+    print(sayi)
+"""
+
+"""
+def yildiz( ad = "isimsiz", a=1, b=1, c=1 ):
+    print(ad)
+    print("toplam:", a + b + c)
+    return a + b + c 
+    for i in range(1,10):
+        print("* " * i )
+
+a = yildiz("alparslan")
+print(a)
+b = yildiz()
+print(b)
+c = yildiz("333 ekledim", 3,3,3)
+print(c)
+"""
+
+"""
+listem = [1,2,3,4,5]
+a = "araba"
+
+print(  a.replace("a","o") )
+
+listem.append("python")
+print( listem )
+listem.pop()
+print( listem )
+"""
+
+"""
+file = open("dosya.txt", "a")
+file.write("naber payton...\n\r")
+file.close
+"""
+
+"""
+file = open("dosya.txt", "r")
+# satirlar = file.read()
+for satir in file:
+    print(satir)
+
+#print(veri)
+file.close
+"""
+
